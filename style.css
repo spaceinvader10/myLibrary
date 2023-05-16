@@ -1,0 +1,36 @@
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40rem;
+    width: 41rem;
+    border: 1px black solid;
+}
+
+.container {
+    
+    display: flex;
+    margin-top: 10em;
+    text-align: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+#formContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+    height: 50vh;
+    width: auto;
+    line-height: 1.5;
+    border: 2px solid green;
+    background-color: aquamarine;
+}
+
+.book {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
