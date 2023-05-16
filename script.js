@@ -88,5 +88,5 @@ function displayLibrary() {
 
 // Additional functions for adding/removing books to/from the library
 function remove() {
-    
+    myLibrary.pop()
 }
