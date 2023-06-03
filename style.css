@@ -31,6 +31,9 @@
 }
 
 .book {
-  background-color: #f0f0f0;
+  background-color: #d6af14;
   padding: 10px;
+  border-radius: 20;
+  border: 2px solid gold;
+  width: max(300px, 20%)
 }
