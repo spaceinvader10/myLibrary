@@ -1,39 +1,74 @@
-#display {
+
+#mainDisplay {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+#pageName {
+    display: flex;
+    font-size: 50px;
+    align-self: center;
+    justify-content: center;
+    height: min(5rem, 10vh);
+    margin-top: 2rem;
+    border: 3px solid rgb(8, 8, 8);
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+#display {    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 40rem;
-    width: 41rem;
-    border: 1px black solid;
-}
-
-.container {
-    
-    display: flex;
-    margin-top: 10em;
-    text-align: center;
-    justify-content: center;
-    gap: 5em;
+    margin: 3rem;
+    height: min(50vh, 500px);
+    overflow: scroll;
+    width: 45%;
+    border: 2px solid black;
 }
 
 #formContainer {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5rem;
-    height: 50vh;
-    width: auto;
+    margin: 3rem;
+    height: (50vh, 500px);
+    width: 45%;
     line-height: 1.5;
-    border: 2px solid green;
-    background-color: aquamarine;
+    border: 2px solid rgb(8, 8, 8);
+    background-color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.addAndRemove {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    height: 2rem;
+    gap: 3rem;
+    font-size: 1.3rem;
+    /* border: blue 2px solid; */
+    /* background-color: aqua; */
 }
 
 .book {
-  background-color: #d6af14;
-  padding: 10px;
-  border-radius: 20;
-  border: 2px solid gold;
-  width: max(300px, 20%)
+    background-color: #3be524;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(72, 179, 88);
+    width: max(300px, 20%);
+}
+
+
+.book h2 {
+    font-size: 1.5rem;
+}
+
+.book p {
+    font-size: 1.1rem;
 }

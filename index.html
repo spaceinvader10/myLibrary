@@ -10,37 +10,30 @@
     <title>Library</title>
 </head>
 <body>
+    <div id="pageName">My Library</div>
 
-    <div id="display">
+    <div id="mainDisplay">
+        <div id="display"></div>
 
+        <div id="formContainer">
+            <form id="hiddenForm" style="display:none;">
+                <label for="title">Book Title:</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="author">Author Name:</label><br>
+                <input type="text" id="author" name="author"><br>
+                <label for="pages">Page Numbers:</label> <br>
+                <input type="number" id="pages" name="pages"><br>
+                <label for="checkbox">Already Read?:</label>
+                <input type="checkbox" id="checkbox" name="checkbox"><br>
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+        </div>
+    </div>    
 
-
-        
-    </div>
-
-    <div class="container">
-
+    <div class="addAndRemove">
         <button id="add_book">Add New Book</button>
         <button id="removeBtn">Remove Book</button>
-
     </div>
-    <div id="formContainer">
-        <form id="hiddenForm" style="display:none;">
-        <label for="title">Book Title:</label><br>
-        <input type="text" id="title" name="title"><br>
-        <label for="author">Author Name:</label><br>
-        <input type="text" id="author" name="author"><br>
-        <label for="pages">Page Numbers:</label> <br>
-        <input type="number" id="pages" name="pages"><br>
-        <label for="checkbox">Already Read?:</label>
-        <input type="checkbox" id="checkbox" name="checkbox"><br>
-        <button type="submit" id="submitBtn">Submit</button>
-        
-    </form>
-        
-    </div>
-
-
 
     <script src="script.js"></script>
 </body>
