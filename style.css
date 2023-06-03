@@ -62,6 +62,7 @@
     border-radius: 20px;
     border: 2px solid rgb(72, 179, 88);
     width: max(300px, 20%);
+    margin-top: 0.3rem;
 }
 
 
@@ -70,5 +71,6 @@
 }
 
 .book p {
+    
     font-size: 1.1rem;
 }
